@@ -5,16 +5,6 @@ import path from 'path'
 export default defineConfig({
   plugins: [
     ViteImageOptimizer({
-      jpg: {
-        quality: 80,
-        progressive: true,
-        optimizeSize: true,
-      },
-      png: {
-        quality: 80,
-        progressive: true,
-        optimizeSize: true,
-      },
       webp: {
         lossless: true,
       },
